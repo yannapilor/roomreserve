@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<title>Save Employee</title>
+</head>
+
+<body>
+
+	<div class="container">
+	
+		<h3>Account Directory</h3>
+		<hr>
+		
+		<p class="h4 mb-4">Create/Save Account</p>
+	
+		
+		<form name="yourform" th:action="@{/accounts/save}"
+			  th:object="${autho}" method="POST">
+			<label>Username</label>
+			<input type="text" th:field="${autho.username}"
+			class="form-control mb-4 col-4" placeholder="Username"/>
+			<label>Role/Authority</label>
+			<input type="text" th:field="${autho.authority}"
+			class="form-control mb-4 col-4" placeholder="Authority" />
+			<label>Password</label>
+			<input type="text" th:field="${user.password}"
+			class="form-control mb-4 col-4" placeholder="Password"/>
+			<p>Note: Password must be bcrypt. Use this site to provide BCrypt Password: http://www.luv2code.com/generate-bcrypt-password</p>
+			<input type="submit" value="Save" class="btn btn-info col-2">
+						
+		</form>
+	
+		<hr>
+		<a th:href="@{/accounts}">Back to Accounts List</a>
+		
+	</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

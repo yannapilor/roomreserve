@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<title>Save Employee</title>
+</head>
+
+<body>
+
+	<div class="container">
+	
+		<h3>Reserves Directory</h3>
+		<hr>
+		
+		<p class="h4 mb-4">Update Room</p>
+	
+		
+		<form name="yourform" th:action="@{/reserves/save}"
+			  th:object="${res}" method="POST">
+			
+			<!-- <input type="hidden" th:field="${res.roomNum}" /> -->
+			<p>Room number: <span th:text="${res.roomNum}"></span><br>
+			<input type="hidden" th:field="${res.roomNum}"/>
+			<p>User: <span th:text="${res.username}"></span><br><br>
+			<label>Room Type Id</label>
+			<input type="text" th:field="${res.roomId}"
+			class="form-control mb-4 col-4" placeholder="Room Type Id" />
+			<input type="hidden" th:field="${res.username}" />
+			<input type="submit" value="Update" class="btn btn-info col-2">
+						
+		</form>
+	
+		<hr>
+		<a th:href="@{/reserves/list}">Back to Reserves List</a>
+		
+	</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
