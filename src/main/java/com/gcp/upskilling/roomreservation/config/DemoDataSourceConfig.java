@@ -18,6 +18,7 @@ public class DemoDataSourceConfig {
 	@Primary
 	@Bean
 	@ConfigurationProperties(prefix="app.datasource")
+//	@ConfigurationProperties(prefix="spring.datasource")
 	public DataSource appDataSource() {
 		return DataSourceBuilder.create().build();
 	}

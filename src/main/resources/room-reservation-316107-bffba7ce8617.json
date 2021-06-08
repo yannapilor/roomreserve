@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "room-reservation-316107",
+  "private_key_id": "bffba7ce86178b77b8751c68be0ad6e2d1ed817d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQA8duFkOfzgiw\n+CI99ATQvOd01KHyYFfFhwRyND08hAcQ3yfNNYgbl395QMjiXeNLF978rhzFynN1\n2WnFL93fp0HcDQbt+wOHaN2T5C0CSmlUDlRYYlq5Rirc4EAwfhUstq0fzPsAzdoS\n+Z/RkTA5A2XmPOORT6CudVt99KfsXg6DEL6VcQfcxlt237QLuUtfAi8LLbumQzq5\nk62oWLjxz0QJz/MHCgre8ZWlZZs2zB+3CRFySAUnGN5KAiY7pF9IJAd+eBd9ErEi\nizt6c0uutc5YA2O50R4Ti5gcocA1zFlt5R5cwq7DCKG3cGNTjuI9zZmfEaudzGGf\nqd6lVhvFAgMBAAECggEAAV0UnVk+mwOB3JQIj8tcghVWNEUnYirMjwrzPrc6XCyJ\ne5fxz2r0H1iLjcPFenBnzaWaWESm7GgBOp8zwkbFB5i7ei2aUemlCan0KPvqDJ5o\nkzcCMjg4G/xnkB4m2e7kM5kV9yEbQDZk4UcZl0NlRmrEWoij4EJG+/Fsr3TN6l1O\nuIyg4WZzrjBRVEdq7I+hBqLPKQ8tJY1tArMBOYjI24/WTw2eSrOk3SLMDCIkrcV4\nyAWDNxG4R+cKT2j/MuKV0sN7qeBwQtyb5JNjesMIVUTUeGnGVP18fBWc2Bp4bNCj\nMORvJ5nhF34oGQCcDk93VlhYacD40W4adiRdYRWDkQKBgQD1cBbGgl8T9N08Q5YQ\nnAXlv9HQ4Kz7h0RSeWSpovkpMG8qZqcrmdhbY0EGEdrV+3cfCxOhVqlvgYlr0teA\nfb1BlknBfHU2gaBBuCgg0uzBDrxXaWzGqtnuwBjXHXrvhSrd4hbKVtpeQBqzkpwu\n0Tma+4t4FNTp6h+793I1273T9QKBgQDY92lqBTGfO88+j+U0qzCaS2OuWaXiUNgj\nIMu5cccsodOP5BKlyPivcDDWa2++F2T6lNeSBkmjdIiW8FPLGHT5i1EZ2NWasSye\nhAuqcZdAPoEhJGyJ8M4/D60Vsz8KNlsjOqn97IILykYiioU3OYb8wBWOg6EUZgap\nw2gW3fIWkQKBgQDj+oD9VR4RwHI7xx++P97ugNXY6sljPktFPIM3Wy2Lh/TKct23\nD0k74h8FD1KxTspgaH6Mb54k+DL4l7kbHjDMmlfaRMvvnEqKoQ+NJb9KuHBT1ZZ3\nlz2lmoO4VSbbE1w1DAxVWIWv5GWpBXbTuf6DKkJrgRYgTRu7EmbhBkL2fQKBgHup\nIDreNPcl1qw4xZGsVKpMd8cCr4p7O4ViBttuXvAwV+22N26oSh1sG1nKqEi2+sXb\nmbZPwR7Zp5Qn7ApgqSMl5ZaOwMhHXUAH0MJXtbZXKbAjG33Pcy38GFG69R4z9uPw\nZr0kVMa1hh3fx6e/MRHTxTWSDnga4odVqXkHDRkRAoGAQu2mV6a+4+tAj0miLGus\nZs+YChl/U0+LSnji9bvm3Xd8VIAZ/GRIrbmZstkk4OKgM1Vp5rmrEx6K8xZswOeI\nyxsVusNEHAW6jejiJ7MiTr9LvOKYHlhc2lIZ7BWskI9nMU7hjn4/IjRLaHyTq6oU\ntU0PjJOuPCWWK3zdAPu86fA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "room-reservation-316107@appspot.gserviceaccount.com",
+  "client_id": "106705462240400156898",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/room-reservation-316107%40appspot.gserviceaccount.com"
+}
