@@ -18,7 +18,7 @@ public class DemoDataSourceConfig {
 	@Primary
 	@Bean
 	@ConfigurationProperties(prefix="app.datasource")
-//	@ConfigurationProperties(prefix="spring.datasource")
+	//@ConfigurationProperties(prefix="spring.cloud.gcp.sql")
 	public DataSource appDataSource() {
 		return DataSourceBuilder.create().build();
 	}
@@ -30,9 +30,9 @@ public class DemoDataSourceConfig {
 				.dataSource(appDataSource)
 				.build();
 	}
-//
+
 //	@Bean
-//	@ConfigurationProperties(prefix="security.datasource")
+//	@ConfigurationProperties(prefix="app.datasource")
 //	public DataSource securityDataSource() {
 //		return DataSourceBuilder.create().build();
 //	}
